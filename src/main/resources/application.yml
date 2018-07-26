@@ -1,0 +1,14 @@
+server:
+  port: 8082
+  servlet:
+    context-path: /boot
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://192.168.0.63:3306/boot?characterEncoding=utf-8
+    username: root
+    password: 111111
+
+mybatis:
+  mapper-locations: "classpath*:mapper/*.xml"
+
